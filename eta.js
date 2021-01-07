@@ -35,14 +35,10 @@ const routeInfoJson = `
                     ]
                 },
                 {
-                    "name": "From Cathay City",
+                    "name": "36m From Kwai Fong MTR",
                     "routes": [
                         {
-                            "url": "https://rt.data.gov.hk/v1/transport/citybus-nwfb/eta/ctb/001844/S52",
-                            "dir": "I"
-                        },
-                        {
-                            "url": "https://data.etabus.gov.hk/v1/transport/kmb/eta/18CA599721E67265/S64/1",
+                            "url": "https://data.etabus.gov.hk/v1/transport/kmb/eta/0C3E27377BF1331D/36M/1",
                             "dir": "O"
                         }
                     ]
