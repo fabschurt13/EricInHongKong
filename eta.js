@@ -35,7 +35,7 @@ const routeInfoJson = `
                     ]
                 },
                 {
-                    "name": "36m From Kwai Fong MTR",
+                    "name": "36M From Kwai Fong MTR",
                     "routes": [
                         {
                             "url": "https://data.etabus.gov.hk/v1/transport/kmb/eta/0C3E27377BF1331D/36M/1",
@@ -49,33 +49,20 @@ const routeInfoJson = `
             "id": "tab-two-content",
             "groups":[
                 {
-                    "name": "To HK Island",
+                    "name": "32M From Hoi Pa Village",
                     "routes": [
                         {
-                            "url": "https://rt.data.gov.hk/v1/transport/citybus-nwfb/eta/ctb/001845/E11",
-                            "dir": "I"
-                        },
-                        {
-                            "url": "https://rt.data.gov.hk/v1/transport/citybus-nwfb/eta/ctb/001845/E11A",
-                            "dir": "I"
+                            "url": "https://data.etabus.gov.hk/v1/transport/kmb/eta/D9655458715EBBF8/32M/1",
+                            "dir": "O"
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "id": "tab-three-content",
-            "groups":[
+                },
                 {
-                    "name": "To Jordan",
+                    "name": "43X From Hoi Pa Village",
                     "routes": [
                         {
-                            "url": "https://rt.data.gov.hk/v1/transport/citybus-nwfb/eta/ctb/001845/E23",
-                            "dir": "I"
-                        },
-                        {
-                            "url": "https://rt.data.gov.hk/v1/transport/citybus-nwfb/eta/ctb/001845/E23A",
-                            "dir": "I"
+                            "url": "https://data.etabus.gov.hk/v1/transport/kmb/eta/D9655458715EBBF8/43X/1",
+                            "dir": "O"
                         }
                     ]
                 }
@@ -97,7 +84,7 @@ function reloadETA() {
 }
 
 function clearETA() {
-    const elements = ["tab-one-content", "tab-two-content", "tab-three-content"];
+    const elements = ["tab-one-content", "tab-two-content"];
     for (let i in elements) {
         document.getElementById(elements[i]).innerHTML = "";
     }
