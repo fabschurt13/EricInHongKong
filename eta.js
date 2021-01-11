@@ -42,6 +42,15 @@ const routeInfoJson = `
                             "dir": "O"
                         }
                     ]
+                },
+                {
+                    "name": "36M From Lei Muk Shue",
+                    "routes": [
+                        {
+                            "url": "https://data.etabus.gov.hk/v1/transport/kmb/eta/A933FB47CBD8DF26/36M/1",
+                            "dir": "O"
+                        }
+                    ]
                 }
             ]
         },
