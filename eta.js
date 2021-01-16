@@ -85,6 +85,7 @@ const routeInfoJson = `
 
 var activeTab = "tab-one-content";
 renderETATables();
+alert("Blue Monday~ Be happy and good luck!");
 
 function reloadETA() {
     clearETA();
