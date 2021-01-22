@@ -31,6 +31,10 @@ const routeInfoJson = `
                         {
                             "url": "https://data.etabus.gov.hk/v1/transport/kmb/eta/18CA599721E67265/S64/1",
                             "dir": "O"
+                        },
+                        {
+                            "url": "https://data.etabus.gov.hk/v1/transport/kmb/eta/18CA599721E67265/S64C/1",
+                            "dir": "O"
                         }
                     ]
                 },
